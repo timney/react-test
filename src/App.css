@@ -1,0 +1,48 @@
+.app{
+  margin:10px;
+}
+
+.button{
+  padding:5px;
+  border-radius:3px;
+  background-color:#eeeeee;
+  text-decoration: none;
+}
+.newCakeLnk:hover{
+  background-color:black;
+  color:white;
+}
+
+.cake-search{
+  padding:5px;
+  margin:5px;
+  border-radius:3px;
+  background-color:#eeeeee;
+}
+
+.cake-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top:10px;
+}
+
+.cake-item{
+  width:250px;
+  height:270px;
+  margin-bottom:10px;
+  border-radius:3px;
+  background-color: #eeeeee;
+  padding:5px;
+}
+
+.cake-img{
+  width:250px;
+  height:200px;
+  object-fit: cover;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
