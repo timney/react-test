@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Header = (props) => 
+const Header = (props) =>
     <div>
         <h1>Cakes</h1>
         <hr />
